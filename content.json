@@ -1,0 +1,56 @@
+{
+  "name": "Rohan Parida",
+  "roles": ["Aspiring AI Engineer", "Software Developer", "Data & GenAI Enthusiast"],
+  "tagline": "Building solutions at the intersection of software development and AI.",
+  "about": "I'm a Computer Science (AI/ML) engineering student and an aspiring AI Engineer, passionate about building solutions at the intersection of software development and artificial intelligence. I enjoy exploring how AI tools can solve real-world problems, and I'm always looking for new ways to apply what I learn. I'm currently seeking opportunities as an AI Engineer or Software Developer where I can apply my skills, learn from experienced teams, and contribute to impactful projects. I'm open to internships, entry-level roles, and collaborations, so let's connect!",
+  "stats": {"cgpa": 9.76, "projects": 4, "certifications": 10, "hackathons": 3},
+  "education": {
+    "school": "Sapthagiri NPS University",
+    "degree": "Bachelor of Engineering - BE, Computer Science Engineering (AI & ML)",
+    "period": "Sep 2025 - Jul 2029",
+    "grades": {"sem1_sgpa": 9.55, "sem2_sgpa": 9.95, "overall_cgpa": 9.76}
+  },
+  "skills": {
+    "Programming": ["C", "C++", "Python", "Java"],
+    "Frontend": ["HTML", "CSS", "JavaScript"],
+    "Backend & APIs": ["Python", "Flask", "REST API", "MCP"],
+    "Databases": ["MySQL", "Cassandra", "MongoDB", "SQLite"],
+    "AI/ML & GenAI": ["Generative AI", "LLMs", "RAG", "AI Agents", "Prompt Engineering", "Predictive Analytics", "PyTorch", "scikit-learn", "Claude Code"],
+    "Data Science & Analytics": ["NumPy", "Pandas", "Matplotlib", "Plotly", "Data Analysis", "Data Cleaning", "EDA", "Data Visualization", "SQL", "Excel", "Tableau", "Power BI", "Anaconda", "Streamlit"],
+    "CS Fundamentals": ["DSA (C++)", "OOPs", "DBMS", "OS & CN (basics)", "Computer Architecture"],
+    "Design & UI/UX": ["Canva", "Figma", "Penpot", "PicMonkey", "Adobe Photoshop", "Adobe Premiere Pro", "Adobe Illustrator"],
+    "Tools & Deployment": ["Git", "GitHub", "Netlify", "Vercel", "Render", "Notion"],
+    "Open Source & Linux": ["Open Source contribution", "Linux", "Ubuntu", "FOSS apps (Element X, Signal, Joplin)"],
+    "Aptitude & Reasoning": ["Quantitative Aptitude", "Data Interpretation", "Logical Reasoning", "Verbal Ability"],
+    "Soft Skills": ["Communication", "Teamwork", "Presentation Skills", "Adaptability", "Quick Learning"]
+  },
+  "experience": [
+    {"role": "Graphics & Branding Associate", "org": "Sapthagiri Libre-Software Users Group (SLUG)", "period": "Jun 2026 - Present", "location": "", "description": "Learning FOSS, Linux, and open-source while handling design and branding.", "tags": ["GitHub", "Graphic Design"]},
+    {"role": "Data Analytics with AI Intern", "org": "BharatCares", "period": "Aug - Sep 2026", "location": "Remote", "description": "Completed the 6-week IBM SkillsBuild Data Analytics with AI Internship (in association with AICTE). Built practical skills in Data Analytics, Data Science, AI & ML, Excel, and EDA.", "tags": ["Data Analytics", "AI & ML", "Excel", "EDA"]},
+    {"role": "Internshala Student Partner (ISP)", "org": "Internshala", "period": "Aug 2026", "location": "Remote", "description": "Selected to represent Internshala on campus.", "tags": ["Leadership", "Communication"]}
+  ],
+  "projects": [
+    {"name": "DigiVoter", "description": "Java-based Digital Voting System built as an OOP mini project. Features voter registration, secure login, candidate management, vote casting, and election results through console and web interfaces, demonstrating core Java OOP concepts. An educational simulation, not intended for real elections.", "tags": ["Java", "OOP"], "url": "https://github.com/rohanparida2/DigiVoter.git"},
+    {"name": "MediBridge AI", "description": "A multilingual, AI-powered healthcare accessibility platform designed to help people understand medical information without being overwhelmed by complex terminology or language barriers.", "tags": ["AI", "GenAI", "Healthcare"], "url": "https://github.com/rohanparida2/MediBridge-AI.git"},
+    {"name": "Super Market Sales Analysis", "description": "Exploratory data analysis of supermarket sales data, uncovering trends in revenue, customer behavior, and product performance.", "tags": ["Python", "Pandas", "Matplotlib", "Seaborn"], "url": "https://github.com/rohanparida2/Super-Market-Sales-Analysis.git"},
+    {"name": "Water Portability Analysis", "description": "In-depth exploratory data analysis of water quality parameters to assess drinking water potability, with statistical significance testing and visualizations.", "tags": ["Python", "EDA", "Statistics"], "url": "https://github.com/rohanparida2/Water-Potability-Analysis.git"},
+    {"name": "More coming soon", "description": "New projects are in the works.", "tags": [], "url": ""}
+  ],
+  "certifications": {
+    "Cisco Networking Academy": ["Apply AI: Analyze Customer Reviews", "Introduction to Modern AI"],
+    "Anthropic": ["Claude 101", "Claude Code 101", "Claude Code in Action"],
+    "IBM": ["Data Fundamentals", "Getting Started with Data", "Make Agentic AI Work for You", "Generative AI Essentials: Using LLMs to Work with Data"],
+    "SAP": ["Discovering Agentic AI"]
+  },
+  "hackathons": [
+    "Prompt Wars x Error Zero Hackathon, organized by Sapthagiri NPS University in association with Google for Developers and Hack2skill under the Build with AI initiative",
+    "Portfolio Design Hackathon by Skillinf Official and Unstop",
+    "Global AI Hackathon by Hackculture, Geekroom, Bifrost, Tavily by Nebius, OmniDimension and Pathway"
+  ],
+  "contact": {
+    "email": "rohanprd5@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/rohanparida",
+    "github": "https://github.com/rohanparida2",
+    "instagram": "https://www.instagram.com/rohanparidaa"
+  }
+}

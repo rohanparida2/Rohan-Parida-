@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#090a0d">
+    <meta name="description" content="Rohan Parida — Computer Science (AI/ML) engineering student and aspiring AI Engineer.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Rohan Parida — AI & Software">
+    <meta property="og:description" content="Building solutions at the intersection of software development and AI.">
+    <meta property="og:image" content="images/profile-podium-web.jpg">
+    <title>Rohan Parida — AI & Software</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='20' fill='%23090a0d'/%3E%3Ctext x='50%25' y='54%25' dominant-baseline='middle' text-anchor='middle' fill='%23c9ff63' font-family='sans-serif' font-size='36' font-weight='700'%3ER%3C/text%3E%3C/svg%3E">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="scroll-progress" aria-hidden="true"><span id="scroll-progress"></span></div>
+    <div class="cursor-glow" aria-hidden="true"></div>
+    <div class="aurora aurora-one" aria-hidden="true"></div>
+    <div class="aurora aurora-two" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <nav class="nav-shell" aria-label="Main navigation">
+        <a class="brand" href="#know-me" aria-label="Rohan Parida — home"><span class="brand-mark">R</span><span>rohan<span class="brand-dot">.</span></span></a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" aria-label="Open navigation">
+          <span></span><span></span>
+        </button>
+        <div class="nav-links" id="primary-navigation">
+          <a href="#know-me">Know Me</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#certifications">Certifications</a>
+          <a href="#hackathons">Hackathons</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <button class="theme-toggle" type="button" aria-label="Switch to light theme" title="Switch theme">
+          <svg class="theme-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"></path></svg>
+        </button>
+      </nav>
+    </header>
+
+    <main id="main">
+      <div id="load-error" class="load-error" role="alert" hidden>Portfolio content could not be loaded. Please run this site from a local web server.</div>
+      <section class="hero section-shell" id="know-me" aria-labelledby="hero-name">
+        <div class="hero-copy">
+          <p class="eyebrow intro-item"><span class="status-dot"></span> KNOW ME <span class="eyebrow-line"></span></p>
+          <p class="hero-greeting intro-item">Hello, I'm</p>
+          <h1 class="hero-name intro-item" id="hero-name">Rohan Parida<span class="name-period">.</span></h1>
+          <p class="hero-role intro-item"><span id="typed-role"></span><span class="typing-caret" aria-hidden="true"></span></p>
+          <p class="hero-tagline intro-item"></p>
+          <div class="hero-actions intro-item">
+            <a class="button button-primary magnetic" href="#projects">View Projects <span aria-hidden="true">↗</span></a>
+            <a class="button button-quiet magnetic" href="#contact">Contact Me <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="social-row hero-social intro-item" aria-label="Social links"></div>
+          <p class="scroll-hint intro-item"><span class="scroll-hint-line"></span> SCROLL TO EXPLORE</p>
+        </div>
+        <div class="hero-bottom-line" aria-hidden="true"></div>
+      </section>
+
+      <section class="section-shell section-block" id="about" aria-labelledby="about-title">
+        <div class="section-heading reveal">
+          <p class="eyebrow">A LITTLE ABOUT ME <span class="eyebrow-line"></span></p>
+          <h2 id="about-title">Curiosity into <span class="text-accent">creation.</span></h2>
+        </div>
+        <div class="about-grid">
+          <article class="about-copy glass-card reveal">
+            <span class="card-index">01 / THE STORY</span>
+            <p class="about-text"></p>
+            <div class="about-signoff"><span class="signoff-rule"></span> Always learning, always building</div>
+          </article>
+          <figure class="podium-card reveal" data-tilt>
+            <img src="images/profile-podium-web.jpg" alt="" width="900" height="1200" loading="lazy">
+            <figcaption><span class="caption-dot"></span> Presenting at Sapthagiri NPS University</figcaption>
+            <span class="podium-corner" aria-hidden="true">↗</span>
+          </figure>
+          <div class="stats-grid reveal" aria-label="Portfolio statistics"></div>
+          <article class="education-card glass-card reveal">
+            <div class="education-topline"><span class="card-index">EDUCATION</span><span class="education-icon" aria-hidden="true">↗</span></div>
+            <h3 class="education-school"></h3>
+            <p class="education-degree"></p>
+            <p class="education-period"></p>
+            <div class="grade-row"></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-shell section-block" id="skills" aria-labelledby="skills-title">
+        <div class="section-heading reveal">
+          <p class="eyebrow">THE TOOLKIT <span class="eyebrow-line"></span></p>
+          <h2 id="skills-title">Skills & <span class="text-accent">curiosities.</span></h2>
+          <p class="section-intro">A growing collection of tools, ideas, and things I love exploring.</p>
+        </div>
+        <div class="skills-grid"></div>
+      </section>
+
+      <section class="section-shell section-block" id="experience" aria-labelledby="experience-title">
+        <div class="section-heading reveal">
+          <p class="eyebrow">WHERE I'VE BEEN <span class="eyebrow-line"></span></p>
+          <h2 id="experience-title">Experience<span class="text-accent">.</span></h2>
+        </div>
+        <div class="timeline"></div>
+      </section>
+
+      <section class="section-shell section-block" id="projects" aria-labelledby="projects-title">
+        <div class="section-heading section-heading-row reveal">
+          <div><p class="eyebrow">SELECTED WORK <span class="eyebrow-line"></span></p><h2 id="projects-title">Ideas made <span class="text-accent">real.</span></h2></div>
+          <span class="work-count"></span>
+        </div>
+        <div class="projects-grid"></div>
+      </section>
+
+      <section class="section-shell section-block" id="certifications" aria-labelledby="certifications-title">
+        <div class="section-heading reveal">
+          <p class="eyebrow">ALWAYS IN LEARNING MODE <span class="eyebrow-line"></span></p>
+          <h2 id="certifications-title">Learning, <span class="text-accent">recognized.</span></h2>
+        </div>
+        <div class="certifications-grid"></div>
+      </section>
+
+      <section class="section-shell section-block" id="hackathons" aria-labelledby="hackathons-title">
+        <div class="section-heading reveal">
+          <p class="eyebrow">BUILDING TOGETHER <span class="eyebrow-line"></span></p>
+          <h2 id="hackathons-title">Hackathons & <span class="text-accent">big ideas.</span></h2>
+        </div>
+        <div class="hackathons-grid"></div>
+      </section>
+
+      <section class="section-shell section-block contact-section" id="contact" aria-labelledby="contact-title">
+        <div class="contact-glow" aria-hidden="true"></div>
+        <div class="section-heading reveal">
+          <p class="eyebrow">HAVE SOMETHING IN MIND? <span class="eyebrow-line"></span></p>
+          <h2 id="contact-title">Let's <span class="text-accent">connect.</span></h2>
+          <p class="section-intro">Have a project, opportunity, or just want to say hi? My inbox is open.</p>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-details glass-card reveal">
+            <span class="card-index">DROP A LINE</span>
+            <a class="contact-email" href="mailto:rohanprd5@gmail.com"></a>
+            <button class="copy-button" type="button">Copy email <span aria-hidden="true">▢</span></button>
+            <div class="social-row contact-social" aria-label="Social links"></div>
+          </div>
+          <form class="contact-form glass-card reveal">
+            <label for="sender-name">Your name</label>
+            <input id="sender-name" name="name" autocomplete="name" required>
+            <label for="sender-email">Your email</label>
+            <input id="sender-email" name="email" type="email" autocomplete="email" required>
+            <label for="sender-message">A little about it</label>
+            <textarea id="sender-message" name="message" rows="4" required></textarea>
+            <button class="button button-primary magnetic" type="submit">Open email draft <span aria-hidden="true">↗</span></button>
+            <p class="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer section-shell">
+      <a class="brand footer-brand" href="#know-me"><span class="brand-mark">R</span><span>rohan<span class="brand-dot">.</span></span></a>
+      <p class="footer-copy"></p>
+      <a class="back-to-top" href="#know-me">Back to top <span aria-hidden="true">↑</span></a>
+    </footer>
+  </body>
+</html>
