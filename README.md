@@ -22,4 +22,4 @@ Use `style.css` to adjust the colors, typography, layout, and motion. The light/
 
 ## Deploy
 
-Publish this folder as a static site using GitHub Pages, Netlify, or Vercel. Set the published/root directory to this folder; there is no build command.
+For GitHub Pages, enable Pages in the repository's **Settings → Pages** and choose **GitHub Actions** as the source. The workflow deploys the site on each push to `main`; there is no build command.
